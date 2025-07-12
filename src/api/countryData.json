@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "countryName": "Japan",
+    "capital": "Tokyo",
+    "population": 125800000,
+    "interestingFact": "Tokyo’s Shibuya Crossing is the busiest pedestrian intersection on earth."
+  },
+  {
+    "id": 2,
+    "countryName": "Brazil",
+    "capital": "Brasília",
+    "population": 214000000,
+    "interestingFact": "Over half of the Amazon rainforest, the planet’s largest biodiversity hotspot, sits within Brazil."
+  },
+  {
+    "id": 3,
+    "countryName": "Canada",
+    "capital": "Ottawa",
+    "population": 38000000,
+    "interestingFact": "Canada has the world’s longest coastline, stretching over 202,000 km."
+  },
+  {
+    "id": 4,
+    "countryName": "Nigeria",
+    "capital": "Abuja",
+    "population": 216000000,
+    "interestingFact": "Nigeria is home to more than 520 living languages, making it Africa’s most linguistically diverse country."
+  },
+  {
+    "id": 5,
+    "countryName": "France",
+    "capital": "Paris",
+    "population": 65300000,
+    "interestingFact": "Including overseas territories, France spans 12 time zones—the most of any country."
+  },
+  {
+    "id": 6,
+    "countryName": "Russia",
+    "capital": "Moscow",
+    "population": 144100000,
+    "interestingFact": "Russia stretches across 11 time zones (reduced to 9 in 2011) and remains the world’s largest country by area."
+  },
+  {
+    "id": 7,
+    "countryName": "Australia",
+    "capital": "Canberra",
+    "population": 25600000,
+    "interestingFact": "Australia is the only continent without any active volcanoes."
+  },
+  {
+    "id": 8,
+    "countryName": "Bangladesh",
+    "capital": "Dhaka",
+    "population": 170000000,
+    "interestingFact": "The Ganges–Brahmaputra Delta in Bangladesh is the largest river delta on the planet."
+  },
+  {
+    "id": 9,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 106000000,
+    "interestingFact": "Egypt’s Great Pyramid of Giza is the only surviving structure of the Seven Wonders of the Ancient World."
+  },
+  {
+    "id": 10,
+    "countryName": "Madagascar",
+    "capital": "Antananarivo",
+    "population": 28000000,
+    "interestingFact": "More than half of all lemur species in the world are found only on the island of Madagascar."
+  }
+]

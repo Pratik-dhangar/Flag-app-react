@@ -1,4 +1,5 @@
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import { About } from "./About";
 
 
 export const Home = () => {
@@ -9,7 +10,7 @@ export const Home = () => {
           <h1 className="heading-xl">
             Explore the World, One Country at a Time.
           </h1>
-          <p className="paragraph">
+          <p className="paragraph" class="text-primary">
             Discover the history, culture, and beauty of every nation. Sort,
             search, and filter through countries to find the details you need.
           </p>
@@ -25,6 +26,8 @@ export const Home = () => {
           />
         </div>
       </div>
+      <About/>
     </main>
+
   );
 };
