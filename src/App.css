@@ -77,7 +77,7 @@ button {
 /* Layout  */
 
 .container {
-  max-width: 98rem;
+  max-width: 80%;
   margin: auto;
 }
 
@@ -102,7 +102,7 @@ button {
 header {
   height: 10rem;
   box-shadow: rgba(255, 255, 255, 0.3) 0px 10px 10px -10px;
-  background-color: #202020;
+  background-color: #5a58e2ca;
   width: 100%;
 
   & .container {
@@ -120,14 +120,17 @@ header {
 nav ul {
   display: flex;
   justify-content: flex-end;
-  /* background-color: yellow; */
+ 
   gap: 3.2rem;
   color: #fff;
 
   & li a {
     color: #fff;
+    
   }
 }
+
+
 
 .ham-menu {
   display: none;
