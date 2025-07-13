@@ -18,15 +18,15 @@ export const About = () => {
               <div className="container-card bg-yellow-box">
                 <p className="card-title">{countryName}</p>
                 <p>
-                  <span className="card-description">Capital:</span>
+                  <span className="card-description">Capital: </span>
                   {capital}
                 </p>
                 <p>
-                  <span className="card-description">Population:</span>
+                  <span className="card-description">Population: </span>
                   {population}
                 </p>
                 <p>
-                  <span className="card-description">Interesting Fact:</span>
+                  <span className="card-description">Interesting Fact: </span>
                   {interestingFact}
                 </p>
               </div>

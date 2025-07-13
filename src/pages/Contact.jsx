@@ -38,7 +38,17 @@ export const Contact = () => {
             autoComplete="off"
           ></textarea>
 
-          <button type="submit" value="send" class="btn btn-outline-primary btn-lg" style={{padding:"1.5rem", border:"0.3px solid black", fontSize:"1.6rem", color:"black"}}>
+          <button
+            type="submit"
+            value="send"
+            class="btn btn-outline-primary btn-lg"
+            style={{
+              padding: "1.5rem",
+              border: "0.3px solid black",
+              fontSize: "1.6rem",
+              color: "black",
+            }}
+          >
             Send
           </button>
         </form>
