@@ -537,7 +537,7 @@ contact us page
 --------------- */
 
 .section-contact {
-  margin: 9.6rem auto;
+  margin: 3.6rem auto;
 
   & hr {
     border-color: rgba(255, 255, 255, 0.6);
@@ -550,20 +550,20 @@ contact us page
   & form {
     display: flex;
     flex-direction: column;
-    gap: 3.2rem;
+    gap: 2.2rem;
     width: 100%;
     max-width: 48rem;
 
     & input,
     & textarea {
       font-family: "urbanist";
-      background-color: #000;
+      background-color: transparent;
       font-size: 1.6rem;
-      color: #fff;
+      color: black;
       outline: none;
-      border: 0.1rem solid rgba(255, 255, 255, 0.4);
+      border: 0.1rem solid rgba(0, 0, 0, 0.4);
       padding: 1.2rem 1.6rem;
-      border-radius: 0.3rem;
+      border-radius: 0.5rem;
       -webkit-border-radius: 0.3rem;
       -moz-border-radius: 0.3rem;
       -ms-border-radius: 0.3rem;
