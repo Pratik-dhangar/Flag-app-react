@@ -4,9 +4,7 @@
   box-sizing: border-box;
 }
 
-:root {
-  --bg-color: #202020;
-}
+
 
 html {
   font-size: 62.5%;
@@ -14,7 +12,15 @@ html {
 }
 
 body {
-  background-color: black;
+ background: rgb(114, 241, 255);
+
+background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, rgb(214, 224, 238) 100%);
+
+background: -moz-linear-gradient(90deg, rgb(64, 228, 246) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
 }
 
 h1,

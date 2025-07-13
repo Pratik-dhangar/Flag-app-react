@@ -8,7 +8,7 @@ export const About = () => {
   <div className="row">
     {data.map((country) => (
       <div className="col-md-4 mb-4" key={country.id}>
-        <div className="card h-100" style={{ background:"linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(79, 194, 161, 1) 100%)", width: "100%" }}>
+        <div className="card h-100" style={{ background:"transparent", width: "100%" }}>
           <div className="card-body">
             <h2 className="card-title text-black text-center fw-bold">
               {country.countryName}
