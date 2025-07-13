@@ -1,33 +1,39 @@
-import data from "../api/countryData.json";
+import countryFacts from "../api/countryData.json";
 
 export const About = () => {
   return (
-    <div>
-      <div class="head" style={{marginTop:"5rem"}}>Do You Know ??</div>
-     <div className="container">
-  <div className="row">
-    {data.map((country) => (
-      <div className="col-md-4 mb-4" key={country.id}>
-        <div className="card h-100" style={{ background:"transparent", width: "100%" }}>
-          <div className="card-body">
-            <h2 className="card-title text-black text-center fw-bold">
-              {country.countryName}
-            </h2>
-            <h3 className="card-subtitle mb-2 text-primary">
-              Capital: {country.capital}
-            </h3>
-            <p className="card-text text-secondary">
-              <b>Population:</b> {country.population.toLocaleString()} <br />
-              <b>Fact:</b> {country.interestingFact}
-            </p>
-          </div>
-        </div>
-      </div>
-    ))}
-  </div>
-</div>
+    <section className="section-about container">
+      <h2 className="container-title">
+        Here are the Interesting Facts
+        <br />
+        we’re proud of
+      </h2>
 
-      
-    </div>
+      <div className="gradient-cards">
+        {countryFacts.map((country) => {
+          const { id, countryName, capital, population, interestingFact } =
+            country;
+          return (
+            <div className="card" key={id}>
+              <div className="container-card bg-blue-box">
+                <p className="card-title">{countryName}</p>
+                <p>
+                  <span className="card-description">Capital:</span>
+                  {capital}
+                </p>
+                <p>
+                  <span className="card-description">Population:</span>
+                  {population}
+                </p>
+                <p>
+                  <span className="card-description">Interesting Fact:</span>
+                  {interestingFact}
+                </p>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
   );
 };
