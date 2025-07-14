@@ -25,8 +25,8 @@ export const CountryCard = ({ country }) => {
             {capital[0]}
           </p>
 
-          <NavLink to={`/country/${name.common}`}>
-            <button>Read More</button>
+          <NavLink to={`/country/${name.common}`} style={{textDecoration:"none"}}>
+            <button style={{background:"#2382db"}}>Read More</button>
           </NavLink>
         </div>
       </div>

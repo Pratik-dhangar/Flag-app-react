@@ -27,7 +27,7 @@ export const SearchFilter = ({
 
   return (
     <section className="section-searchFilter container">
-      <div>
+      <div className="">
         <input
           type="text"
           placeholder="search"
@@ -36,12 +36,12 @@ export const SearchFilter = ({
         />
       </div>
 
-      <div>
-        <button onClick={() => sortCountries("asc")}>Asc</button>
+      <div >
+        <button onClick={() => sortCountries("asc") } style={{background:"#2382db",  padding:"1.5rem 2.4rem"}}>Asc</button>
       </div>
 
       <div>
-        <button onClick={() => sortCountries("des")}>Desc</button>
+        <button onClick={() => sortCountries("des")} style={{background:"#2382db", padding:"1.5rem 2.4rem"}}>Desc</button>
       </div>
 
       <div>

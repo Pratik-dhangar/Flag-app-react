@@ -82,8 +82,8 @@ export const CountryDetails = () => {
           </div>
         )}
         <div className="country-card-backBtn">
-          <NavLink to="/country" className="backBtn">
-            <button>Go Back</button>
+          <NavLink to="/country" className="backBtn" style={{textDecoration:"none"}}>
+            <button style={{background:"#2382db"}}>Go Back</button>
           </NavLink>
         </div>
       </div>
