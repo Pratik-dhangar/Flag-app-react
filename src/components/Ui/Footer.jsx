@@ -34,9 +34,9 @@ export const Footers = () => {
           <div className="grid grid-two-cols">
             <div className="copyright-text">
               <p>
-                Copyright &copy; 2024, All Right Reserved
-                <NavLink to="https://thapatechnical.shop/" target="_blank">
-                  ThapaTechnical
+                Copyright &copy; 2025, All Right Reserved
+                <NavLink to="https://github.com/Pratik-dhangar" target="_blank">
+                  Pratik Dhangar
                 </NavLink>
               </p>
             </div>
@@ -49,7 +49,7 @@ export const Footers = () => {
 
                 <li>
                   <NavLink
-                    to="https://www.instagram.com/thapatechnical/"
+                    to="www.linkedin.com/in/pratik-dhangar"
                     target="_blank"
                   >
                     Social
@@ -57,7 +57,7 @@ export const Footers = () => {
                 </li>
                 <li>
                   <NavLink
-                    to="https://thapatechnical.shop/source-code"
+                    to="https://github.com/Pratik-dhangar/Flag-app-react.git"
                     target="_blank"
                   >
                     Source Code

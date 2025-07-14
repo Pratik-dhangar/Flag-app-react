@@ -340,13 +340,13 @@ nav ul {
 /* footer CSS  */
 
 .footer-contact {
-  height: 10rem;
+  height: 9rem;
   display: flex;
-  gap: 2.4rem;
+  gap: 2.3rem;
   align-items: center;
 
   & .icon {
-    color: #3a4ed5;
+    color: #1e85eb;
     font-size: 3.6rem;
 
     & .icon:nth-child(2) {
@@ -358,17 +358,17 @@ nav ul {
 .footer-contact-text {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
+  gap: 0.3rem;
 
   & p {
     font-size: 1.5rem;
-    color: #757575;
+    color: #010101;
   }
 
   & p:first-child {
     font-size: 1.7rem;
     font-weight: bold;
-    color: #fff;
+    color: #000000;
   }
 }
 
@@ -384,21 +384,21 @@ ul {
   padding: 0px;
 }
 .footer-section {
-  background: #151414;
+  background: #85b1ee77;
   position: relative;
 }
 
 .copyright-area {
-  background: #202020;
+  background: #22a2e73e;
   padding: 25px 0;
 }
 .copyright-text p {
   margin: 0;
   font-size: 14px;
-  color: #878787;
+  color: #000000;
 }
 .copyright-text p a {
-  color: #3a4ed5;
+  color: #b01e1e;
   margin-left: 0.6rem;
 }
 .footer-menu li {
@@ -406,11 +406,11 @@ ul {
   margin-left: 20px;
 }
 .footer-menu li:hover a {
-  color: #3a4ed5;
+  color: #000000;
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color: #b01e1e;
 }
 
 /* --------------- 
