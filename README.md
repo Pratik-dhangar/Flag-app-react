@@ -38,3 +38,4 @@ src/
 
 - [Pratik Dhangar](https://github.com/Pratik-dhangar)
 
+used axios to get api data 
