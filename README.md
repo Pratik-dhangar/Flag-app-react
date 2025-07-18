@@ -30,12 +30,13 @@ src/
 
 - React
 - React Router
+- Axios to use Api data
 - Bootstrap
 - CSS (custom, no frameworks)
 - [REST Countries API](https://restcountries.com/) (or local JSON)
 
 ## Author
 
-- [Pratik Dhangar](https://github.com/Pratik-dhangar)
+- [Pratik Dhangar]
 
-used axios to get api data 
+
