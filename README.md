@@ -21,6 +21,8 @@ A modern React application to explore country data, including flags, population,
 | Home Page                              | All Movies                              |
 |---------------------------------------- |-----------------------------------------|
 | ![Home](./public/Home.png) | ![Search Flag](./public/Search.png) | 
+| Home Page                              | All Movies                              |
+|---------------------------------------- |-----------------------------------------|
 | ![Country Details](./public/Country.png) | ![Contact](./public/Contact.png) | 
 
 ## Project Structure
