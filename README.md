@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
+  <img src="https://img.shields.io/badge/-Bootstrap_JS-black?style=for-the-badge&logoColor=white&logo=react&color= 563d7c" alt="bootstrap" />
+  <div>
 <h1 align="center">Country Flag App Using React </h1>
 
 A modern React application to explore country data, including flags, population, region, capital, and more. Users can search, filter by region, and view detailed information for each country.
