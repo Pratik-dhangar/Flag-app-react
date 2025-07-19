@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-  <img src="https://img.shields.io/badge/-Bootstrap_JS-black?style=for-the-badge&logoColor=white&logo=react&color=563D7C" alt="bootstrap" />
+  <img src="https://img.shields.io/badge/-Bootstrap-black?style=for-the-badge&logoColor=white&logo=react&color=563D7C" alt="bootstrap" />
 </div>
 <h1 align="center">Country Flag App Using React </h1>
 
@@ -18,10 +18,10 @@ A modern React application to explore country data, including flags, population,
 
  ## UI Preview
 
-| Home Page                              | All Movies                              |
+| Home Page                              | Search Flags                              |
 |---------------------------------------- |-----------------------------------------|
 | ![Home](./public/Home.png) | ![Search Flag](./public/Search.png) | 
-| Home Page                              | All Movies                              |
+| Country Details                              | Contact                              |
 |---------------------------------------- |-----------------------------------------|
 | ![Country Details](./public/Country.png) | ![Contact](./public/Contact.png) | 
 
