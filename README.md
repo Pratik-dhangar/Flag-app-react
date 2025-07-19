@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-  <img src="https://img.shields.io/badge/-Bootstrap_JS-black?style=for-the-badge&logoColor=white&logo=react&color= 563d7c" alt="bootstrap" />
+  <img src="https://img.shields.io/badge/-Bootstrap_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="bootstrap" />
   <div>
 <h1 align="center">Country Flag App Using React </h1>
 
